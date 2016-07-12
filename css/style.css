@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #fafafa;
+
+	font: 16px/1.4 'Source Sans Pro', arial;
+	color: #6b6b6b;
+}
+.top-alg{
+	height: 50px;
+	background-color:  #f1574d;
+	width: 100;
+}
+.profile .mrg-top{
+	margin-top:30px;
+}
+
+.h-body{
+	height: 100vh;
+}
+.orange-bg{
+	background-color: #f1574d;
+}
+.orange-txt{
+	color: #f1574d;
+}
+.blue-bg{
+    background-color: #069;
+    color: white;
+}
+.gray-bg{
+	background-color: #313131;
+}
+.gray-txt{
+	color: #313131;
+}
+
+.profile .card {
+    border: 1px solid #cfd8dc;
+    position: relative;
+    margin: 15px 0;
+    transition: all .3s;
+    background-color: white
+}
+.shadow-card {
+    box-shadow: 2px 2px 1px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+}
+.padd-10{
+    padding: 10px;
+}
+.profile label.padd-10{
+    padding: 10px 0 0 10px;
+}
+.profile-tab {
+    display: inline-block;
+    padding-right: 50px;
+}
+.profile-tab:before {
+    content: " ";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 104px;
+    border-bottom: 42px solid #006699;
+    border-right: 10px solid transparent;
+}
+.profile label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #444;
+}
+@media screen and (max-width: 992px){
+	.profile .mrg-top {
+	    margin-top: 10px;
+	}
+}
